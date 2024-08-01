@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #affebf;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    gap: 180px;
+    margin: 20px;
+}
+
+.img-logo {
+    height: 70px;
+    margin: 20px;
+}
+
+a {
+    text-align:left;
+    font-size: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 40px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.2;
+}
+
+
+.box-main {
+    display: flex;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section {
+    text-align: center;
+    width: 25%;
+}
+
+.main-icon {
+    height: 500px;
+}
+
+.paragraph-who {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.paragraph-are {
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+aside {
+    display: flex;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.slider {
+
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #00000036;
+    bottom: 10px;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.slider li:nth-child(1) label {
+    left: 75px;
+}
+
+.slider li:nth-child(2) label {
+    left: 145px;
+}
+
+.slider li:nth-child(3) label {
+    left: 205px;
+}
+
+.slider li:nth-child(4) label {
+    left: 265px;
+}
+
+.slider li:nth-child(5) label {
+    left: 325px;
+}
+
+.slider li:nth-child(6) label {
+    left: 385px;
+}
+
+.slider li:nth-child(7) label {
+    left: 445px;
+}
+
+.slider li:nth-child(8) label {
+    left: 505px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.poppet {
+    height: 150px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+article {
+    display: block;
+    text-align: center;
+}
+
+.icon-delivery {
+    width: 100px;
+    height: 150px;
+}
+
+.icon-box {
+    width: 100px;
+    height: 130px;
+}
+
+.paragraph-delivery {
+    font-size: 25px;
+
+}
+
+.paragraph-box {
+    font-size: 25px;
+}
+
