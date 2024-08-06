@@ -43,14 +43,13 @@ a:active {
 .box-main {
     display: flex;
     height: 100vh;
-    padding: 100px;
     align-items: center;
     justify-content: space-around;
 }
 
 section {
     text-align: center;
-    width: 25%;
+    width: 50%;
 }
 
 .main-icon {
@@ -77,7 +76,6 @@ aside {
 }
 
 .slider {
-
     width: 600px;
     height: 500px;
     position: relative;
@@ -186,3 +184,60 @@ article {
     font-size: 25px;
 }
 
+@media screen and (max-width:1700px) {
+
+    .main-icon {
+        width: 300px;
+        height: 300px;
+    }
+
+    .paragraph-who {
+        font-size: 30px;
+    }
+
+    .paragraph-are {
+        font-size: 20px;
+    }
+
+    .slider {
+        width: 400px;
+        height: 300px;
+    }
+
+    .slider li:nth-child(1) label {
+        left: 35px;
+    }
+    
+    .slider li:nth-child(2) label {
+        left: 80px;
+    }
+    
+    .slider li:nth-child(3) label {
+        left: 125px;
+    }
+    
+    .slider li:nth-child(4) label {
+        left: 170px;
+    }
+    
+    .slider li:nth-child(5) label {
+        left: 215px;
+    }
+    
+    .slider li:nth-child(6) label {
+        left: 260px;
+    }
+    
+    .slider li:nth-child(7) label {
+        left: 305px;
+    }
+    
+    .slider li:nth-child(8) label {
+        left: 350px;
+    }
+
+    .poppet {
+        height: 120px;
+    }
+
+}
