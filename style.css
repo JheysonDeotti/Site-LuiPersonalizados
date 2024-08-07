@@ -41,6 +41,7 @@ a:active {
 
 
 .box-main {
+    padding: 100px;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -70,6 +71,7 @@ section {
 }
 
 aside {
+    padding: 100px;
     display: flex;
     text-align: center;
     margin-top: -200px;
@@ -101,43 +103,43 @@ aside {
     background-color: #00000036;
     bottom: 10px;
     cursor: pointer;
-    height: 10px;
-    width: 10px;
+    height: 8px;
+    width: 35px;
     position: absolute;
     z-index: 10;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .slider li:nth-child(1) label {
-    left: 75px;
+    left: 70px;
 }
 
 .slider li:nth-child(2) label {
-    left: 145px;
+    left: 140px;
 }
 
 .slider li:nth-child(3) label {
-    left: 205px;
+    left: 200px;
 }
 
 .slider li:nth-child(4) label {
-    left: 265px;
+    left: 260px;
 }
 
 .slider li:nth-child(5) label {
-    left: 325px;
+    left: 320px;
 }
 
 .slider li:nth-child(6) label {
-    left: 385px;
+    left: 380px;
 }
 
 .slider li:nth-child(7) label {
-    left: 445px;
+    left: 440px;
 }
 
 .slider li:nth-child(8) label {
-    left: 505px;
+    left: 500px;
 }
 
 .slider img {
@@ -152,7 +154,7 @@ aside {
 }
 
 .poppet {
-    height: 150px;
+    height: 120px;
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -163,16 +165,18 @@ aside {
 article {
     display: block;
     text-align: center;
+    padding: 100px;
 }
 
 .icon-delivery {
     width: 100px;
-    height: 150px;
+    height: 120px;
 }
 
 .icon-box {
     width: 100px;
     height: 130px;
+    margin-top: 100px;
 }
 
 .paragraph-delivery {
@@ -205,39 +209,131 @@ article {
     }
 
     .slider li:nth-child(1) label {
-        left: 35px;
+        left: 30px;
     }
     
     .slider li:nth-child(2) label {
-        left: 80px;
+        left: 75px;
     }
     
     .slider li:nth-child(3) label {
-        left: 125px;
+        left: 120px;
     }
     
     .slider li:nth-child(4) label {
-        left: 170px;
+        left: 165px;
     }
     
     .slider li:nth-child(5) label {
-        left: 215px;
+        left: 210px;
     }
     
     .slider li:nth-child(6) label {
-        left: 260px;
+        left: 255px;
     }
     
     .slider li:nth-child(7) label {
-        left: 305px;
+        left: 300px;
     }
     
     .slider li:nth-child(8) label {
-        left: 350px;
+        left: 345px;
     }
 
     .poppet {
         height: 120px;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+    .img-logo {
+        display: none;
+    }
+
+    .paragraph-who {
+        display: none;
+    }
+
+    .paragraph-are {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .box-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    a {
+        text-align:center;
+        font-size: 18px;
+    }
+    
+    .main-icon {
+        text-align: center;
+    }
+    
+    aside {
+        width: 500px;
+        height: 400px;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+    .slider label {
+        height: 6px;
+        width: 25px;
+        border-radius: 20px;
+    }
+
+    .slider li:nth-child(1) label {
+        left: 15px;
+    }
+    
+    .slider li:nth-child(2) label {
+        left: 50px;
+    }
+    
+    .slider li:nth-child(3) label {
+        left: 85px;
+    }
+    
+    .slider li:nth-child(4) label {
+        left: 120px;
+    }
+    
+    .slider li:nth-child(5) label {
+        left: 155px;
+    }
+    
+    .slider li:nth-child(6) label {
+        left: 190px;
+    }
+    
+    .slider li:nth-child(7) label {
+        left: 225px;
+    }
+    
+    .slider li:nth-child(8) label {
+        left: 260px;
+    }
+
+    .poppet {
+        display: none;
+    }
+
+    article {
+        margin-top: 200px;
     }
 
 }
