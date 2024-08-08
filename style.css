@@ -270,8 +270,9 @@ article {
     }
 
     a {
-        text-align:center;
-        font-size: 18px;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
     }
     
     .main-icon {
@@ -336,4 +337,15 @@ article {
         margin-top: 30px;
     }
 
+}
+
+@media screen and (max-width:390px){
+
+    .main-icon {
+        position: absolute;
+    }
+
+    aside {
+        padding-top: 250px;
+    }
 }
