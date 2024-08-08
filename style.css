@@ -247,6 +247,10 @@ article {
 
 @media screen and (max-width:1200px){
 
+    body {
+        justify-content: flex-start;
+    }
+
     .img-logo {
         display: none;
     }
